@@ -1,0 +1,58 @@
+---
+title: "assignment1"
+author: "Ahmed Abdullahi"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r }
+```
+
+
+```{r }
+```
+
+
+```{r }
+```
+
+
+```{r }
+library(tidyverse)
+rawdata<-"https://raw.githubusercontent.com/bikcoe/descriptive-stats-r/main/data/raw/govhack3.csv"
+
+```
+
+```{r}
+csvdata <- read_csv(rawdata)
+```
+
+```{r }
+
+View(csvdata)
+```
+
+
+```{r }
+names <- c("Date",	"Attendance",	"Admissions",	"Tri_1",	"Tri_2",	"Tri_3",	"Tri_4",	"Tri_5","Date",	"Attendance",	"Admissions",	"2Tri_1",	"2Tri_2",	"2Tri_3",	"2Tri_4",	"2Tri_5","Date",	"Attendance",	"Admissions",	"3Tri_1",	"3Tri_2",	"3Tri_3",	"3Tri_4",	"3Tri_5","Date",	"Attendance",	"Admissions",	"4Tri_1",	"4Tri_2",	"4Tri_3",	"4Tri_4",	"4Tri_5","Date",	"Attendance",	"Admissions",	"5Tri_1",	"5Tri_2",	"5Tri_3",	"5Tri_4",	"5Tri_5","Date",	"Attendance",	"Admissions",	"6Tri_1",	"6Tri_2",	"6Tri_3",	"6Tri_4",	"6Tri_5","Date",	"Attendance",	"Admissions",	"7Tri_1",	"7Tri_2",	"7Tri_3",	"7Tri_4",	"7Tri_5","Date",	"Attendance",	"Admissions",	"8Tri_1",	"8Tri_2",	"8Tri_3",	"8Tri_4",	"8Tri_5")
+
+```
+
+
+```{r }
+```
+
+
+```{r }
+```
+
+
+```{r }
+```
+
